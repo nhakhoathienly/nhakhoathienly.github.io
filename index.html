@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <!-- SEO Meta Tags -->
+  <title>Phòng khám Nha khoa Bác sĩ Thiên Lý - Chuyên khoa Răng Trẻ Em</title>
+  <meta name="description" content="Website chính thức của BS. Thiên Lý - Chuyên khoa Răng trẻ em, Bệnh viện Răng Hàm Mặt Trung Ương. Chuyên khám, trám răng sâu, nhổ răng sữa không đau và niềng răng tăng trưởng sớm cho bé.">
+  <meta name="keywords" content="bác sĩ thiên lý, nha khoa trẻ em, răng trẻ em, bệnh viện răng hàm mặt trung ương, nhổ răng sữa không đau, trám răng sâu cho bé, niềng răng sớm, chỉnh nha tăng trưởng">
+  <meta name="author" content="BS. Thiên Lý">
+  
+  <!-- OpenGraph Facebook / Zalo Social Media Meta Tags -->
+  <meta property="og:title" content="Nha khoa Bác sĩ Thiên Lý - Chuyên khoa Răng Trẻ Em & Răng Hàm Mặt">
+  <meta property="og:description" content="Khám răng định kỳ, nhổ răng sữa siêu êm, trám răng sâu sinh học và chỉnh nha sớm giai đoạn vàng cho bé cùng Bác sĩ Bệnh viện Răng Hàm Mặt Trung Ương.">
+  <meta property="og:image" content="assets/doctor_portrait.png">
+  <meta property="og:url" content="https://bac.si.thien.ly">
+  <meta property="og:type" content="website">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       HEADER & NAVIGATION
+       ========================================================================== -->
+  <header class="header" id="header">
+    <div class="container">
+      <a href="#trang-chu" class="logo">
+        <img src="assets/logo.svg" alt="Nha Khoa BS. Thiên Lý">
+        <div>
+          <span class="logo-text" data-bind="logoText">BS. Thiên Lý</span>
+          <span class="logo-subtitle">Răng trẻ em & RHM</span>
+        </div>
+      </a>
+      
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#trang-chu" class="nav-link active">Trang chủ</a></li>
+        <li><a href="#gioi-thieu" class="nav-link">Bác sĩ</a></li>
+        <li><a href="#dich-vu" class="nav-link">Dịch vụ</a></li>
+        <li><a href="#dat-lich" class="nav-link">Đặt lịch hẹn</a></li>
+        <li><a href="#danh-gia" class="nav-link">Ý kiến cha mẹ</a></li>
+        <li><a href="#dat-lich" class="btn btn-primary nav-btn">Đặt lịch ngay</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- ==========================================================================
+         HERO SECTION (TRANG CHỦ)
+         ========================================================================== -->
+    <section class="hero" id="trang-chu">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-content">
+            <div class="hospital-badge">
+              <span></span>
+              <p data-bind="hospital">Khoa Răng trẻ em - Bệnh viện Răng Hàm Mặt Trung Ương</p>
+            </div>
+            
+            <h1>Nụ cười trẻ thơ<br>Khởi đầu <span>Tương Lai</span></h1>
+            
+            <p data-bind="tagline">Nụ cười rạng rỡ, Tương lai rạng ngời - Chuyên gia Răng Trẻ em tận tâm đồng hành cùng con.</p>
+            
+            <div class="hero-btns">
+              <a href="#dat-lich" class="btn btn-primary">
+                Đặt lịch hẹn khám <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </a>
+              <a href="tel:0766123118" class="btn btn-secondary" data-bind-href="phone">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81 7A2 2 0 0 1 22 16.92z"></path></svg>
+                Tư vấn nhanh
+              </a>
+            </div>
+          </div>
+          
+          <div class="hero-visual">
+            <div class="hero-bg-blob"></div>
+            <div class="hero-image-card">
+              <img src="assets/clinic_hero.png" alt="Phòng khám nha khoa trẻ em BS. Thiên Lý">
+              
+              <!-- Floating Card 1 -->
+              <div class="floating-card floating-card-1">
+                <div class="floating-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10v6M12 2v20M2 10h20M2 16h20"/></svg>
+                </div>
+                <div class="floating-info">
+                  <h4 data-bind="doctorName">BS. Thiên Lý</h4>
+                  <p>BV. Răng Hàm Mặt TW</p>
+                </div>
+              </div>
+              
+              <!-- Floating Card 2 -->
+              <div class="floating-card floating-card-2">
+                <div class="floating-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                </div>
+                <div class="floating-info">
+                  <h4 data-bind="experienceYears">Hơn 15 năm</h4>
+                  <p>Kinh nghiệm chuyên môn</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         STATS SECTION
+         ========================================================================== -->
+    <section class="stats">
+      <div class="container">
+        <div class="stats-grid" id="statsGrid">
+          <!-- Populated Dynamically by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         ABOUT SECTION (GIỚI THIỆU BÁC SĨ)
+         ========================================================================== -->
+    <section class="section section-bg-white" id="gioi-thieu">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-visual">
+            <div class="about-image-wrapper">
+              <img src="assets/doctor_portrait.jpeg" alt="Chân dung Bác sĩ Thiên Lý">
+              <div class="experience-badge">
+                <h4 data-bind="experienceYears">Hơn 15 năm</h4>
+                <p>Y đức & Chuyên môn</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="about-content">
+            <div class="about-subtitle">Giới thiệu về tôi</div>
+            <h2>Chào ba mẹ, tôi là <span data-bind="doctorName">BS. Thiên Lý</span></h2>
+            
+            <p class="about-intro-text" data-bind="aboutIntro">Tôi là Bác sĩ Thiên Lý, hiện đang công tác tại Khoa Răng trẻ em thuộc Bệnh viện Răng Hàm Mặt Trung Ương. Với tình yêu thương đặc biệt dành cho trẻ thơ và sự thấu hiểu tâm lý trẻ nhỏ, tôi luôn mong muốn mang đến những trải nghiệm chăm sóc răng miệng nhẹ nhàng, không đau đớn, giúp các bé xóa bỏ nỗi sợ hãi khi đi khám nha khoa.</p>
+            
+            <div class="about-philosophy">
+              <p data-bind="aboutPhilosophy">"Mỗi đứa trẻ xứng đáng có một nụ cười khỏe mạnh và tự tin. Điều trị răng trẻ em không chỉ cần tay nghề chuyên môn vững vàng mà đòi hỏi sự kiên nhẫn, thấu cảm và những phương pháp tâm lý dỗ dành phù hợp với từng lứa tuổi của con."</p>
+            </div>
+            
+            <div class="about-hospital-info">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"></path><path d="M12 6v12M8 12h8"/></svg>
+              <div>
+                <strong style="color: var(--secondary); display: block; margin-bottom: 4px;">Công tác chuyên môn chính</strong>
+                <p data-bind="hospital">Khoa Răng trẻ em - Bệnh viện Răng Hàm Mặt Trung Ương</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         SERVICES SECTION (DỊCH VỤ)
+         ========================================================================== -->
+    <section class="section" id="dich-vu">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge badge-primary" style="margin-bottom: 12px;">Dịch vụ chuyên sâu</div>
+          <h2>Chăm Sóc Nụ Cười <span>Cho Bé & Gia Đình</span></h2>
+          <p>Phòng khám cung cấp đầy đủ các dịch vụ nha khoa chất lượng cao, thân thiện và không gây đau đớn cho bé, đồng hành cùng sự phát triển khỏe mạnh của con.</p>
+        </div>
+        
+        <div class="services-grid" id="servicesGrid">
+          <!-- Populated Dynamically by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         BOOKING & TIMING SECTION (ĐẶT LỊCH HẸN)
+         ========================================================================== -->
+    <section class="section section-bg-white" id="dat-lich">
+      <div class="container">
+        <div class="booking-grid">
+          <!-- Booking Card -->
+          <div class="booking-card" id="bookingCard">
+            <h3>Đăng ký Lịch Khám</h3>
+            <p>Ba mẹ vui lòng điền thông tin dưới đây. Yêu cầu đặt lịch sẽ được chuyển trực tiếp sang Zalo chat của Bác sĩ để xác nhận lịch hẹn nhanh chóng.</p>
+            
+            <form class="booking-form" id="bookingForm">
+              <div class="form-group">
+                <label for="parentName">Họ tên Phụ huynh *</label>
+                <input type="text" id="parentName" class="form-control" placeholder="Ví dụ: Nguyễn Văn A" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="bookingPhone">Số điện thoại liên hệ *</label>
+                <input type="tel" id="bookingPhone" class="form-control" placeholder="Ví dụ: 0901234567" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="childName">Tên của bé *</label>
+                <input type="text" id="childName" class="form-control" placeholder="Ví dụ: Bé Gia Bảo" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="childAge">Tuổi của bé (không bắt buộc)</label>
+                <input type="number" id="childAge" class="form-control" placeholder="Ví dụ: 6" min="1" max="18">
+              </div>
+              
+              <div class="form-group-full form-group">
+                <label for="bookingService">Dịch vụ cần đăng ký *</label>
+                <select id="bookingService" class="form-control" required>
+                  <!-- Populated Dynamically by app.js -->
+                </select>
+              </div>
+              
+              <div class="form-group">
+                <label for="bookingDate">Ngày hẹn mong muốn *</label>
+                <input type="date" id="bookingDate" class="form-control" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="bookingTime">Khung giờ hẹn *</label>
+                <select id="bookingTime" class="form-control" required>
+                  <option value="" disabled selected>Chọn khung giờ...</option>
+                  <option value="17:00 - 18:00">17:00 - 18:00 (Ngoài giờ hành chính)</option>
+                  <option value="18:00 - 19:00">18:00 - 19:00 (Ngoài giờ hành chính)</option>
+                  <option value="19:00 - 20:00">19:00 - 20:00 (Ngoài giờ hành chính)</option>
+                  <option value="08:00 - 10:00 (Cuối tuần)">08:00 - 10:00 (Cuối tuần)</option>
+                  <option value="10:00 - 12:00 (Cuối tuần)">10:00 - 12:00 (Cuối tuần)</option>
+                  <option value="14:00 - 16:00 (Cuối tuần)">14:00 - 16:00 (Cuối tuần)</option>
+                  <option value="16:00 - 18:00 (Cuối tuần)">16:00 - 18:00 (Cuối tuần)</option>
+                </select>
+              </div>
+              
+              <div class="form-group-full form-group">
+                <label for="bookingNote">Ghi chú triệu chứng hoặc yêu cầu thêm</label>
+                <textarea id="bookingNote" class="form-control" placeholder="Ví dụ: Bé bị đau răng hàm dưới bên trái, răng sữa lung lay..."></textarea>
+              </div>
+              
+              <button type="submit" class="btn btn-primary" id="btnSubmitBooking">
+                Gửi yêu cầu đăng ký qua Zalo Bác sĩ
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+            </form>
+          </div>
+          
+          <!-- Timing and Contacts -->
+          <div class="timing-info">
+            <div class="timing-card">
+              <div class="timing-header">
+                <h3>Lịch làm việc</h3>
+                <div id="clinicStatusContainer">
+                  <!-- Automatic status tracker populated by app.js -->
+                </div>
+              </div>
+              
+              <ul class="working-hours-list" id="workingHoursList">
+                <!-- Populated Dynamically by app.js -->
+              </ul>
+              
+              <div style="margin-top: 24px; font-size: 0.85rem; color: var(--text-muted); display: flex; align-items: center; gap: 8px;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="color: var(--primary);"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+                <span>Ba mẹ nên đặt lịch trước ít nhất 1 ngày để bác sĩ sắp xếp thời gian đón tiếp tốt nhất.</span>
+              </div>
+            </div>
+            
+            <div class="quick-contact-card">
+              <h3>Hỗ trợ khẩn cấp / Tư vấn trực tiếp</h3>
+              <p>Nếu bé đang gặp tình trạng đau răng cấp tính hoặc chấn thương răng miệng, hãy liên hệ trực tiếp với bác sĩ ngay lập tức.</p>
+              
+              <div class="quick-contact-btns">
+                <a href="tel:0766123118" class="quick-contact-btn" data-bind-href="phone" style="background-color: #ffffff; color: var(--danger); border-color: #ffffff; box-shadow: 0 4px 12px rgba(239, 68, 68, 0.2);">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                  GỌI HOTLINE KHẨN CẤP
+                </a>
+                
+                <a href="https://zalo.me/0766123118" target="_blank" class="quick-contact-btn" data-bind-href="zaloLink">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+                  Tư vấn qua Zalo Bác sĩ
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         TESTIMONIALS SECTION (Ý KIẾN CHA MẸ)
+         ========================================================================== -->
+    <section class="section" id="danh-gia">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge badge-accent" style="margin-bottom: 12px;">Đánh giá hài lòng</div>
+          <h2>Ba Mẹ Nói Gì Về <span>Cô Lý?</span></h2>
+          <p>Niềm hạnh phúc và nụ cười khỏe mạnh của con trẻ là động lực to lớn nhất để tôi không ngừng nỗ lực và cống hiến mỗi ngày.</p>
+        </div>
+        
+        <div class="testimonials-slider" id="testimonialsSlider">
+          <!-- Populated Dynamically by app.js -->
+        </div>
+        
+        <div class="testimonial-dots">
+          <span class="testimonial-dot active"></span>
+          <span class="testimonial-dot"></span>
+          <span class="testimonial-dot"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         MAP SECTION
+         ========================================================================== -->
+    <section class="map-section" id="ban-do">
+      <iframe 
+        id="mapIframe"
+        src="" 
+        allowfullscreen="" 
+        loading="lazy" 
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Bản đồ phòng khám Nha khoa Bác sĩ Thiên Lý">
+      </iframe>
+    </section>
+  </main>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <!-- Footer Column 1 -->
+        <div class="footer-column">
+          <div class="footer-logo">
+            <span class="logo-text" data-bind="logoText">BS. Thiên Lý</span>
+            <span class="logo-subtitle" style="color: rgba(255,255,255,0.6);">Răng trẻ em & RHM</span>
+          </div>
+          <p class="footer-desc" data-bind="tagline">Nụ cười rạng rỡ, Tương lai rạng ngời - Chuyên gia Răng Trẻ em tận tâm đồng hành cùng con.</p>
+          <div class="footer-socials">
+            <a href="https://www.facebook.com/bac.si.thien.ly" class="social-icon" data-bind-href="facebookPage" aria-label="Facebook">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+            <a href="https://zalo.me/0766123118" class="social-icon" data-bind-href="zaloLink" aria-label="Zalo">
+              <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+            </a>
+          </div>
+        </div>
+        
+        <!-- Footer Column 2 -->
+        <div class="footer-column">
+          <h3>Đường dẫn nhanh</h3>
+          <ul class="footer-links">
+            <li><a href="#trang-chu">Trang chủ</a></li>
+            <li><a href="#gioi-thieu">Giới thiệu Bác sĩ</a></li>
+            <li><a href="#dich-vu">Dịch vụ nha khoa</a></li>
+            <li><a href="#dat-lich">Đăng ký khám</a></li>
+            <li><a href="#danh-gia">Ý kiến phụ huynh</a></li>
+          </ul>
+        </div>
+        
+        <!-- Footer Column 3 -->
+        <div class="footer-column">
+          <h3>Liên hệ phòng khám</h3>
+          <ul class="footer-contact-list">
+            <li class="footer-contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <span data-bind="address">Phòng khám BS. Thiên Lý, Hà Nội</span>
+            </li>
+            
+            <li class="footer-contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <a href="tel:0766123118" data-bind-href="phone" data-bind="phoneFormatted">0766 123 118</a>
+            </li>
+            
+            <li class="footer-contact-item">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+              <a href="mailto:bs.thienly.rhm@gmail.com" data-bind="email">bs.thienly.rhm@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; 2026 Phòng khám Nha khoa BS. Thiên Lý. Bảo lưu mọi quyền. Thiết kế phục vụ tận tâm.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==========================================================================
+       FLOATING ACTIONS (NÚT LIÊN HỆ NỔI)
+       ========================================================================== -->
+  <div class="floating-actions">
+    <a href="tel:0766123118" class="floating-btn floating-btn-phone" data-bind-href="phone" aria-label="Gọi hotline">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+    </a>
+    
+    <a href="https://zalo.me/0766123118" target="_blank" class="floating-btn floating-btn-zalo" data-bind-href="zaloLink" aria-label="Trò chuyện qua Zalo">
+      <!-- Icon chữ Zalo cách điệu tinh tế -->
+      <span style="font-family: var(--font-title); font-weight: 800; font-size: 1.15rem; letter-spacing: -0.5px;">Zalo</span>
+    </a>
+    
+    <a href="https://m.me/bac.si.thien.ly" target="_blank" class="floating-btn floating-btn-messenger" data-bind-href="messengerLink" aria-label="Trò chuyện qua Facebook Messenger">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+    </a>
+  </div>
+
+  <!-- ==========================================================================
+       LIVE CUSTOMIZER PANEL (BỘ TÙY CHỈNH THÔNG TIN CHO BÁC SĨ)
+       ========================================================================== -->
+  <!-- Nút bấm bánh răng mở cài đặt -->
+  <div class="customizer-toggle" id="customizerToggle" title="Bộ chỉnh sửa nhanh website">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+  </div>
+  
+  <!-- Lớp phủ tối mờ nền -->
+  <div class="customizer-overlay" id="customizerOverlay"></div>
+  
+  <!-- Bảng chỉnh sửa Drawer -->
+  <aside class="customizer-panel" id="customizerPanel">
+    <div class="customizer-header">
+      <h3>Bộ Chỉnh Sửa Trực Quan</h3>
+      <button class="customizer-close" id="customizerClose">&times;</button>
+    </div>
+    
+    <div class="customizer-body">
+      <p style="font-size: 0.8rem; color: rgba(255,255,255,0.6); line-height: 1.4; background: rgba(13, 148, 136, 0.15); padding: 12px; border-radius: 8px; border: 1px solid rgba(13, 148, 136, 0.3);">
+        🔑 <b>Dành riêng cho Bác sĩ:</b> Chỉnh sửa thông tin ngay tại đây, giao diện bên ngoài sẽ thay đổi ngay lập tức. Sau đó bấm nút xuất file ở cuối trang để lưu cấu hình.
+      </p>
+      
+      <!-- Nhóm 1: Thông tin bác sĩ -->
+      <div class="customizer-group">
+        <h4>Thông tin Bác sĩ & Phòng khám</h4>
+        
+        <div class="customizer-field">
+          <label for="czDoctorName">Họ tên Bác sĩ</label>
+          <input type="text" id="czDoctorName" class="customizer-input">
+        </div>
+        
+        <div class="customizer-field">
+          <label for="czDoctorTitle">Học hàm / Bằng cấp</label>
+          <input type="text" id="czDoctorTitle" class="customizer-input">
+        </div>
+        
+        <div class="customizer-field">
+          <label for="czClinicName">Tên Phòng khám</label>
+          <input type="text" id="czClinicName" class="customizer-input">
+        </div>
+        
+        <div class="customizer-field">
+          <label for="czHospital">Nơi công tác chính</label>
+          <input type="text" id="czHospital" class="customizer-input">
+        </div>
+        
+        <div class="customizer-field">
+          <label for="czTagline">Khẩu hiệu / Slogan phòng khám</label>
+          <textarea id="czTagline" class="customizer-input"></textarea>
+        </div>
+      </div>
+      
+      <!-- Nhóm 2: Thông tin liên hệ -->
+      <div class="customizer-group">
+        <h4>Thông tin liên hệ</h4>
+        
+        <div class="customizer-field">
+          <label for="czPhone">Số điện thoại (dạng số liền để gọi - VD: 0766123118)</label>
+          <input type="tel" id="czPhone" class="customizer-input">
+        </div>
+        
+        <div class="customizer-field">
+          <label for="czPhoneFormatted">Số điện thoại (hiển thị - VD: 0766 123 118)</label>
+          <input type="text" id="czPhoneFormatted" class="customizer-input">
+        </div>
+        
+        <div class="customizer-field">
+          <label for="czZaloLink">Đường link Zalo (VD: https://zalo.me/0766123118)</label>
+          <input type="url" id="czZaloLink" class="customizer-input">
+        </div>
+        
+        <div class="customizer-field">
+          <label for="czFacebookPage">Đường link Facebook Page</label>
+          <input type="url" id="czFacebookPage" class="customizer-input">
+        </div>
+        
+        <div class="customizer-field">
+          <label for="czMessengerLink">Đường link Facebook Messenger</label>
+          <input type="url" id="czMessengerLink" class="customizer-input">
+        </div>
+        
+        <div class="customizer-field">
+          <label for="czEmail">Địa chỉ Email</label>
+          <input type="email" id="czEmail" class="customizer-input">
+        </div>
+        
+        <div class="customizer-field">
+          <label for="czAddress">Địa chỉ phòng khám thực tế</label>
+          <textarea id="czAddress" class="customizer-input"></textarea>
+        </div>
+      </div>
+      
+      <!-- Nhóm 3: Tiểu sử & Bản đồ -->
+      <div class="customizer-group">
+        <h4>Tiểu sử giới thiệu & Bản đồ</h4>
+        
+        <div class="customizer-field">
+          <label for="czAboutIntro">Lời giới thiệu giới thiệu bản thân</label>
+          <textarea id="czAboutIntro" class="customizer-input"></textarea>
+        </div>
+        
+        <div class="customizer-field">
+          <label for="czAboutPhilosophy">Triết lý y đức / Phương châm khám</label>
+          <textarea id="czAboutPhilosophy" class="customizer-input"></textarea>
+        </div>
+        
+        <div class="customizer-field">
+          <label for="czMapsEmbed">Đường link nhúng Google Maps (thẻ iframe src)</label>
+          <textarea id="czMapsEmbed" class="customizer-input" style="font-size: 0.7rem;"></textarea>
+        </div>
+      </div>
+    </div>
+    
+    <div class="customizer-footer">
+      <button class="btn-export" id="btnExportConfig">
+        Tải file cấu hình mới (config.js)
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+      </button>
+      <p>Nhấp vào đây sẽ tải xuống file <b>config.js</b> chứa toàn bộ sửa đổi của bạn. Hãy ghi đè file này vào thư mục của bạn để áp dụng mãi mãi.</p>
+    </div>
+  </aside>
+
+  <!-- ==========================================================================
+       SCRIPTS LOADING
+       ========================================================================== -->
+  <!-- Nạp cấu hình dữ liệu trước -->
+  <script src="config.js"></script>
+  <!-- Nạp logic hoạt động sau -->
+  <script src="app.js"></script>
+</body>
+</html>
