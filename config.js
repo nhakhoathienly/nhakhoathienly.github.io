@@ -10,7 +10,7 @@ const CLINIC_CONFIG = {
   doctorTitle: "Thạc sĩ - Bác sĩ Chuyên khoa Răng Hàm Mặt",
   clinicName: "Phòng khám Nha khoa Trẻ em & Răng Hàm Mặt",
   hospital: "Bác Sĩ Khoa Răng trẻ em - Bệnh viện Răng Hàm Mặt Trung Ương",
-  tagline: "Chuyên khoa răng trẻ em — an toàn, nhẹ nhàng, thấu hiểu trẻ.",
+  tagline: "An toàn, nhẹ nhàng và thấu hiểu tâm lý của bé.",
   logoText: "Nha Khoa Thiên Lý",
   
   // --- THÔNG TIN LIÊN HỆ ---
@@ -26,7 +26,7 @@ const CLINIC_CONFIG = {
   // --- GIỚI THIỆU BÁC SĨ ---
   experienceYears: "Hơn 10 năm",
   experienceDetail: "Đã chăm sóc và điều trị thành công nụ cười cho hơn 10.000+ trẻ em và người lớn.",
-  aboutIntro: "Tôi là Bác sĩ Thiên Lý, hiện đang công tác tại Khoa Răng trẻ em thuộc Bệnh viện Răng Hàm Mặt Trung Ương. Với tình yêu thương đặc biệt dành cho trẻ thơ và sự thấu hiểu tâm lý trẻ nhỏ, tôi luôn mong muốn mang đến những trải nghiệm chăm sóc răng miệng nhẹ nhàng, không đau đớn, giúp các bé xóa bỏ nỗi sợ hãi khi đi khám nha khoa.",
+  aboutIntro: "Tôi là Thạc sĩ, Bác sĩ Thiên Lý, hiện công tác tại Khoa Răng Trẻ em – Bệnh viện Răng Hàm Mặt Trung Ương. Với tình yêu dành cho trẻ và sự thấu hiểu tâm lý của các bé, tôi mong muốn mỗi lần đến nha khoa đều là một trải nghiệm nhẹ nhàng, ít đau và không còn đáng sợ với các con.",
   aboutCertificates: [
     "Nền tảng đào tạo chuyên sâu và chuẩn quốc tế: chứng chỉ chỉnh nha POS (Mỹ), Invisalign, chỉnh hình RHM-Đại học Y Hà Nội.",
     "Làm chủ đa dạng kỹ thuật chỉnh nha hiện đại: chứng chỉ khí cụ chỉnh nha sớm, khí cụ MEAW-GEAW-ToGO.",

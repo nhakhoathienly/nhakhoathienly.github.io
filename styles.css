@@ -451,10 +451,27 @@ img, svg {
   margin: 0;
 }
 
+.hero-top-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 14px;
+  background: rgba(220, 20, 20, 0.05);
+  border: 1px solid rgba(220, 20, 20, 0.1);
+  color: var(--primary-dark);
+  border-radius: 50px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  font-family: var(--font-title);
+  animation: fadeInUp 0.6s ease forwards;
+}
+
 .hero-content h1 {
-  font-size: 3.5rem;
+  font-size: 3.8rem;
   line-height: 1.15;
   margin-bottom: 20px;
+  letter-spacing: -0.5px;
 }
 
 .hero-content h1 span {
@@ -464,14 +481,17 @@ img, svg {
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
+  text-shadow: 0 10px 30px rgba(220, 20, 20, 0.05);
 }
 
 .hero-content p {
   font-size: 1.15rem;
-  color: #475569; /* Màu cụ thể thay vì biến để đảm bảo độ tương phản */
-  margin-bottom: 24px;
+  color: #57534e; /* Warm charcoal dark grey */
+  margin-bottom: 32px;
   max-width: 540px;
-  line-height: 1.7;
+  line-height: 1.75;
+  border-left: 3px solid var(--primary);
+  padding-left: 16px;
 }
 
 .hero-features {
@@ -480,7 +500,7 @@ img, svg {
   margin: 30px 0 0 0;
   display: flex;
   flex-direction: column;
-  gap: 16px;
+  gap: 18px;
 }
 
 .hero-features li {
@@ -500,14 +520,14 @@ img, svg {
 .hero-features li:nth-child(3) { animation-delay: 0.7s; }
 
 .hero-features li .feature-icon {
-  width: 22px;
-  height: 22px;
-  color: var(--success);
-  background-color: var(--success-light);
+  width: 26px;
+  height: 26px;
+  color: #ffffff;
+  background: linear-gradient(135deg, #10b981, #059669);
   border-radius: 50%;
-  padding: 4px;
+  padding: 5px;
   flex-shrink: 0;
-  box-shadow: 0 2px 5px rgba(16, 185, 129, 0.2);
+  box-shadow: 0 4px 10px rgba(16, 185, 129, 0.3);
 }
 
 /* Hero Image Visual */
@@ -524,10 +544,11 @@ img, svg {
 
 .hero-bg-blob {
   position: absolute;
-  width: 110%;
-  height: 110%;
-  background: radial-gradient(circle, rgba(220, 20, 20, 0.10) 0%, rgba(255, 255, 255, 0) 65%);
+  width: 120%;
+  height: 120%;
+  background: radial-gradient(circle, rgba(220, 20, 20, 0.15) 0%, rgba(255, 255, 255, 0) 70%);
   z-index: 0;
+  filter: blur(25px);
 }
 
 .hero-image-card {
@@ -565,13 +586,14 @@ img, svg {
 .floating-card {
   position: absolute;
   z-index: 2;
-  background: rgba(255, 255, 255, 0.9);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
+  background: rgba(255, 255, 255, 0.88);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
   border-radius: var(--radius-md);
   padding: 16px 20px;
-  box-shadow: 0 15px 35px -5px rgba(220, 20, 20, 0.12);
-  border: 1px solid rgba(255, 255, 255, 0.8);
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.08), 
+              0 1px 3px rgba(0, 0, 0, 0.02);
+  border: 1px solid rgba(255, 255, 255, 0.6);
   display: flex;
   align-items: center;
   gap: 16px;
@@ -582,7 +604,7 @@ img, svg {
 .floating-card:hover {
   transform: translateY(-8px) scale(1.04) !important;
   background: #ffffff;
-  box-shadow: 0 20px 45px -10px rgba(220, 20, 20, 0.22);
+  box-shadow: 0 25px 50px -12px rgba(220, 20, 20, 0.18);
   border-color: rgba(220, 20, 20, 0.25);
 }
 
@@ -606,11 +628,12 @@ img, svg {
   width: 48px;
   height: 48px;
   border-radius: var(--radius-round);
-  background-color: var(--primary-light);
+  background: linear-gradient(135deg, var(--primary-light), rgba(220, 20, 20, 0.15));
   color: var(--primary);
   display: flex;
   align-items: center;
   justify-content: center;
+  box-shadow: inset 0 1px 2px rgba(255, 255, 255, 0.5);
 }
 
 .floating-info h4 {
