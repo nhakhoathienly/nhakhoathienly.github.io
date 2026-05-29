@@ -51,7 +51,6 @@
         <li><a href="#dich-vu" class="nav-link">Dịch vụ</a></li>
         <li><a href="#thiet-bi" class="nav-link">Thiết bị</a></li>
         <li><a href="#danh-gia" class="nav-link">Ý kiến cha mẹ</a></li>
-        <li><a href="#lien-he" class="btn btn-primary nav-btn">Liên hệ ngay</a></li>
       </ul>
     </div>
   </header>
@@ -64,47 +63,51 @@
       <div class="container">
         <div class="hero-grid">
           <div class="hero-content">
-            
             <h1>Phòng khám<br><span>Răng Trẻ em</span></h1>
             
             <p data-bind="tagline">Nụ cười rạng rỡ, Tương lai rạng ngời - Chuyên gia Răng Trẻ em tận tâm đồng hành cùng con.</p>
             
-            <div class="hero-btns">
-              <a href="#lien-he" class="btn btn-primary">
-                Liên hệ ngay <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-              </a>
-              <a href="tel:0766123118" class="btn btn-secondary" data-bind-href="phone">
-                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81 7A2 2 0 0 1 22 16.92z"></path></svg>
-                Tư vấn nhanh
-              </a>
-            </div>
+            <ul class="hero-features">
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feature-icon"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Khám nhẹ nhàng, siêu êm ái, xóa tan nỗi sợ hãi của bé</span>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feature-icon"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Bác sĩ chuyên khoa Bệnh viện Răng Hàm Mặt Trung Ương trực tiếp điều trị</span>
+              </li>
+              <li>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="feature-icon"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                <span>Thiết bị hiện đại scan 3D, vô trùng tuyệt đối đạt chuẩn Y tế</span>
+              </li>
+            </ul>
           </div>
           
           <div class="hero-visual">
             <div class="hero-bg-blob"></div>
             <div class="hero-image-card">
               <img src="assets/clinic_hero.png" alt="Phòng khám nha khoa trẻ em BS. Thiên Lý">
-              
-              <!-- Floating Card 1 -->
-              <div class="floating-card floating-card-1">
-                <div class="floating-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10v6M12 2v20M2 10h20M2 16h20"/></svg>
-                </div>
-                <div class="floating-info">
-                  <h4 data-bind="doctorName">BS. Thiên Lý</h4>
-                  <p>BV. Răng Hàm Mặt TW</p>
-                </div>
+            </div>
+            
+            <!-- Floating Card 1 -->
+            <div class="floating-card floating-card-1">
+              <div class="floating-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10v6M12 2v20M2 10h20M2 16h20"/></svg>
               </div>
-              
-              <!-- Floating Card 2 -->
-              <div class="floating-card floating-card-2">
-                <div class="floating-icon">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
-                </div>
-                <div class="floating-info">
-                  <h4 data-bind="experienceYears">Hơn 10 năm</h4>
-                  <p>Kinh nghiệm chuyên môn</p>
-                </div>
+              <div class="floating-info">
+                <h4 data-bind="doctorName">BS. Thiên Lý</h4>
+                <p>BV. Răng Hàm Mặt TW</p>
+              </div>
+            </div>
+            
+            <!-- Floating Card 2 -->
+            <div class="floating-card floating-card-2">
+              <div class="floating-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              </div>
+              <div class="floating-info">
+                <h4 data-bind="experienceYears">Hơn 10 năm</h4>
+                <p>Kinh nghiệm chuyên môn</p>
               </div>
             </div>
           </div>
@@ -349,128 +352,7 @@
     </a>
   </div>
 
-  <!-- ==========================================================================
-       LIVE CUSTOMIZER PANEL (BỘ TÙY CHỈNH THÔNG TIN CHO BÁC SĨ)
-       ========================================================================== -->
-  <!-- Nút bấm bánh răng mở cài đặt -->
-  <div class="customizer-toggle" id="customizerToggle" title="Bộ chỉnh sửa nhanh website">
-    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
-  </div>
-  
-  <!-- Lớp phủ tối mờ nền -->
-  <div class="customizer-overlay" id="customizerOverlay"></div>
-  
-  <!-- Bảng chỉnh sửa Drawer -->
-  <aside class="customizer-panel" id="customizerPanel">
-    <div class="customizer-header">
-      <h3>Bộ Chỉnh Sửa Trực Quan</h3>
-      <button class="customizer-close" id="customizerClose">&times;</button>
-    </div>
-    
-    <div class="customizer-body">
-      <p style="font-size: 0.8rem; color: rgba(255,255,255,0.6); line-height: 1.4; background: rgba(13, 148, 136, 0.15); padding: 12px; border-radius: 8px; border: 1px solid rgba(13, 148, 136, 0.3);">
-        🔑 <b>Dành riêng cho Bác sĩ:</b> Chỉnh sửa thông tin ngay tại đây, giao diện bên ngoài sẽ thay đổi ngay lập tức. Sau đó bấm nút xuất file ở cuối trang để lưu cấu hình.
-      </p>
-      
-      <!-- Nhóm 1: Thông tin bác sĩ -->
-      <div class="customizer-group">
-        <h4>Thông tin Bác sĩ & Phòng khám</h4>
-        
-        <div class="customizer-field">
-          <label for="czDoctorName">Họ tên Bác sĩ</label>
-          <input type="text" id="czDoctorName" class="customizer-input">
-        </div>
-        
-        <div class="customizer-field">
-          <label for="czDoctorTitle">Học hàm / Bằng cấp</label>
-          <input type="text" id="czDoctorTitle" class="customizer-input">
-        </div>
-        
-        <div class="customizer-field">
-          <label for="czClinicName">Tên Phòng khám</label>
-          <input type="text" id="czClinicName" class="customizer-input">
-        </div>
-        
-        <div class="customizer-field">
-          <label for="czHospital">Nơi công tác chính</label>
-          <input type="text" id="czHospital" class="customizer-input">
-        </div>
-        
-        <div class="customizer-field">
-          <label for="czTagline">Khẩu hiệu / Slogan phòng khám</label>
-          <textarea id="czTagline" class="customizer-input"></textarea>
-        </div>
-      </div>
-      
-      <!-- Nhóm 2: Thông tin liên hệ -->
-      <div class="customizer-group">
-        <h4>Thông tin liên hệ</h4>
-        
-        <div class="customizer-field">
-          <label for="czPhone">Số điện thoại (dạng số liền để gọi - VD: 0766123118)</label>
-          <input type="tel" id="czPhone" class="customizer-input">
-        </div>
-        
-        <div class="customizer-field">
-          <label for="czPhoneFormatted">Số điện thoại (hiển thị - VD: 0766 123 118)</label>
-          <input type="text" id="czPhoneFormatted" class="customizer-input">
-        </div>
-        
-        <div class="customizer-field">
-          <label for="czZaloLink">Đường link Zalo (VD: https://zalo.me/0766123118)</label>
-          <input type="url" id="czZaloLink" class="customizer-input">
-        </div>
-        
-        <div class="customizer-field">
-          <label for="czFacebookPage">Đường link Facebook Page</label>
-          <input type="url" id="czFacebookPage" class="customizer-input">
-        </div>
-        
-        <div class="customizer-field">
-          <label for="czMessengerLink">Đường link Facebook Messenger</label>
-          <input type="url" id="czMessengerLink" class="customizer-input">
-        </div>
-        
-        <div class="customizer-field">
-          <label for="czEmail">Địa chỉ Email</label>
-          <input type="email" id="czEmail" class="customizer-input">
-        </div>
-        
-        <div class="customizer-field">
-          <label for="czAddress">Địa chỉ phòng khám thực tế</label>
-          <textarea id="czAddress" class="customizer-input"></textarea>
-        </div>
-      </div>
-      
-      <!-- Nhóm 3: Tiểu sử & Bản đồ -->
-      <div class="customizer-group">
-        <h4>Tiểu sử giới thiệu & Bản đồ</h4>
-        
-        <div class="customizer-field">
-          <label for="czAboutIntro">Lời giới thiệu giới thiệu bản thân</label>
-          <textarea id="czAboutIntro" class="customizer-input"></textarea>
-        </div>
-        
-        <div class="customizer-field">
-          <label for="czAboutPhilosophy">Triết lý y đức / Phương châm khám</label>
-          <textarea id="czAboutPhilosophy" class="customizer-input"></textarea>
-        </div>
-        
-        <div class="customizer-field">
-          <label for="czMapsEmbed">Đường link nhúng Google Maps (thẻ iframe src)</label>
-          <textarea id="czMapsEmbed" class="customizer-input" style="font-size: 0.7rem;"></textarea>
-        </div>
-      </div>
-    </div>
-    
-    <div class="customizer-footer">
-      <button class="btn-export" id="btnExportConfig">
-        Tải file cấu hình mới (config.js)
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
-      </button>
-      <p>Nhấp vào đây sẽ tải xuống file <b>config.js</b> chứa toàn bộ sửa đổi của bạn. Hãy ghi đè file này vào thư mục của bạn để áp dụng mãi mãi.</p>
-    </div>
-  </aside>
+
 
   <!-- ==========================================================================
        SCRIPTS LOADING
