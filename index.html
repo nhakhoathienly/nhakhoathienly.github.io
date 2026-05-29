@@ -14,12 +14,12 @@
   <!-- OpenGraph Facebook / Zalo Social Media Meta Tags -->
   <meta property="og:title" content="Nha khoa Bác sĩ Thiên Lý - Chuyên khoa Răng Trẻ Em & Răng Hàm Mặt">
   <meta property="og:description" content="Khám răng định kỳ, nhổ răng sữa siêu êm, trám răng sâu sinh học và chỉnh nha sớm giai đoạn vàng cho bé cùng Bác sĩ Bệnh viện Răng Hàm Mặt Trung Ương.">
-  <meta property="og:image" content="assets/doctor_portrait.png">
+  <meta property="og:image" content="assets/doctor_portrait.jpeg">
   <meta property="og:url" content="https://bac.si.thien.ly">
   <meta property="og:type" content="website">
   
   <!-- Favicon -->
-  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/logo.jpg" type="image/jpeg">
   
   <!-- CSS Stylesheet -->
   <link rel="stylesheet" href="styles.css">
@@ -32,10 +32,10 @@
   <header class="header" id="header">
     <div class="container">
       <a href="#trang-chu" class="logo">
-        <img src="assets/logo.svg" alt="Nha Khoa BS. Thiên Lý">
+        <img src="assets/logo.jpg" alt="Nha Khoa Thiên Lý" class="logo-img">
         <div>
-          <span class="logo-text" data-bind="logoText">BS. Thiên Lý</span>
-          <span class="logo-subtitle">Răng trẻ em & RHM</span>
+          <span class="logo-text" data-bind="logoText">Nha Khoa Thiên Lý</span>
+          <span class="logo-subtitle">Chuyên gia chăm sóc răng miệng</span>
         </div>
       </a>
       
@@ -49,6 +49,7 @@
         <li><a href="#trang-chu" class="nav-link active">Trang chủ</a></li>
         <li><a href="#gioi-thieu" class="nav-link">Bác sĩ</a></li>
         <li><a href="#dich-vu" class="nav-link">Dịch vụ</a></li>
+        <li><a href="#thiet-bi" class="nav-link">Thiết bị</a></li>
         <li><a href="#dat-lich" class="nav-link">Đặt lịch hẹn</a></li>
         <li><a href="#danh-gia" class="nav-link">Ý kiến cha mẹ</a></li>
         <li><a href="#dat-lich" class="btn btn-primary nav-btn">Đặt lịch ngay</a></li>
@@ -64,12 +65,8 @@
       <div class="container">
         <div class="hero-grid">
           <div class="hero-content">
-            <div class="hospital-badge">
-              <span></span>
-              <p data-bind="hospital">Khoa Răng trẻ em - Bệnh viện Răng Hàm Mặt Trung Ương</p>
-            </div>
             
-            <h1>Nụ cười trẻ thơ<br>Khởi đầu <span>Tương Lai</span></h1>
+            <h1>Phòng khám<br><span>Răng Trẻ em</span></h1>
             
             <p data-bind="tagline">Nụ cười rạng rỡ, Tương lai rạng ngời - Chuyên gia Răng Trẻ em tận tâm đồng hành cùng con.</p>
             
@@ -106,7 +103,7 @@
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
                 </div>
                 <div class="floating-info">
-                  <h4 data-bind="experienceYears">Hơn 15 năm</h4>
+                  <h4 data-bind="experienceYears">Hơn 10 năm</h4>
                   <p>Kinh nghiệm chuyên môn</p>
                 </div>
               </div>
@@ -137,7 +134,7 @@
             <div class="about-image-wrapper">
               <img src="assets/doctor_portrait.jpeg" alt="Chân dung Bác sĩ Thiên Lý">
               <div class="experience-badge">
-                <h4 data-bind="experienceYears">Hơn 15 năm</h4>
+                <h4 data-bind="experienceYears">Hơn 10 năm</h4>
                 <p>Y đức & Chuyên môn</p>
               </div>
             </div>
@@ -149,9 +146,9 @@
             
             <p class="about-intro-text" data-bind="aboutIntro">Tôi là Bác sĩ Thiên Lý, hiện đang công tác tại Khoa Răng trẻ em thuộc Bệnh viện Răng Hàm Mặt Trung Ương. Với tình yêu thương đặc biệt dành cho trẻ thơ và sự thấu hiểu tâm lý trẻ nhỏ, tôi luôn mong muốn mang đến những trải nghiệm chăm sóc răng miệng nhẹ nhàng, không đau đớn, giúp các bé xóa bỏ nỗi sợ hãi khi đi khám nha khoa.</p>
             
-            <div class="about-philosophy">
-              <p data-bind="aboutPhilosophy">"Mỗi đứa trẻ xứng đáng có một nụ cười khỏe mạnh và tự tin. Điều trị răng trẻ em không chỉ cần tay nghề chuyên môn vững vàng mà đòi hỏi sự kiên nhẫn, thấu cảm và những phương pháp tâm lý dỗ dành phù hợp với từng lứa tuổi của con."</p>
-            </div>
+            <ul class="about-certificates" id="aboutCertificatesList">
+              <!-- Populated dynamically -->
+            </ul>
             
             <div class="about-hospital-info">
               <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2z"></path><path d="M12 6v12M8 12h8"/></svg>
@@ -177,6 +174,43 @@
         </div>
         
         <div class="services-grid" id="servicesGrid">
+          <!-- Populated Dynamically by app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         EQUIPMENT SECTION (TRANG THIẾT BỊ PHÒNG KHÁM)
+         ========================================================================== -->
+    <section class="section section-bg-white" id="thiet-bi">
+      <div class="container">
+        <div class="section-header">
+          <div class="badge badge-primary" style="margin-bottom: 12px;">Công nghệ hiện đại</div>
+          <h2>Trang Thiết Bị <span>Phòng Khám</span></h2>
+          <p>Phòng khám được trang bị các thiết bị nha khoa hiện đại, đạt chuẩn y tế quốc tế, đảm bảo mọi quy trình điều trị an toàn, chính xác và thoải mái nhất cho bé.</p>
+        </div>
+
+        <!-- Banner cam kết chất lượng -->
+        <div class="equipment-trust-banner">
+          <div class="trust-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><path d="m9 11 2 2 4-4"/></svg>
+            <span>100% Vô khuẩn các dụng cụ sau mỗi ca</span>
+          </div>
+          <div class="trust-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+            <span>Thiết bị được kiểm định định kỳ</span>
+          </div>
+          <div class="trust-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <span>An toàn tuyệt đối cho trẻ em</span>
+          </div>
+          <div class="trust-item">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="24" height="24"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+            <span>Đạt chuẩn quốc tế ISO</span>
+          </div>
+        </div>
+
+        <div class="equipment-grid" id="equipmentGrid">
           <!-- Populated Dynamically by app.js -->
         </div>
       </div>
@@ -340,8 +374,7 @@
         <!-- Footer Column 1 -->
         <div class="footer-column">
           <div class="footer-logo">
-            <span class="logo-text" data-bind="logoText">BS. Thiên Lý</span>
-            <span class="logo-subtitle" style="color: rgba(255,255,255,0.6);">Răng trẻ em & RHM</span>
+            <img src="assets/logo.jpg" alt="Nha Khoa Thiên Lý" class="footer-logo-img">
           </div>
           <p class="footer-desc" data-bind="tagline">Nụ cười rạng rỡ, Tương lai rạng ngời - Chuyên gia Răng Trẻ em tận tâm đồng hành cùng con.</p>
           <div class="footer-socials">
